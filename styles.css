@@ -1,0 +1,58 @@
+body {
+    color: white;
+    background: green;
+    margin: 10px;
+    font-family: "Chakra Petch", sans-serif;
+    margin-bottom: 35px;
+}
+
+header {
+    border-bottom: solid 2px lightgreen;
+    padding: 10px;
+    font-size: 32px;
+    color: lightgreen
+}
+
+.chamada {
+    background: darkgreen;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-left: 2.5%;
+}
+
+h1 {
+    font-size: 38px;
+}
+p {
+    font-size: 20px;
+}
+
+.categoria-jogos{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px; 
+    margin-top: 10px;  
+}
+
+.categoria{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.categoria-jogos img{
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-jogos img:hover{
+    opacity: 1.0;
+    border: solid 2px lightgreen;
+}
+
+.categoria h2{
+    color: lightgreen;
+}
